@@ -1,0 +1,82 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="fragment_category_header_text_size">18sp</dimen>
+    <dimen name="fragment_category_header_image_height">27dp</dimen>
+
+
+    <dimen name="product_row_image_height">150dp</dimen>
+
+
+    <dimen name="product_row_discount_text_view_height">35dp</dimen>
+    <dimen name="product_row_discount_text_view_width">35dp</dimen>
+    <dimen name="product_row_discount_text_size">12sp</dimen>
+    <dimen name="product_row_discount_text_padding_left">2dp</dimen>
+    <dimen name="product_row_product_price_padding_top">2dp</dimen>
+
+    <dimen name="product_row_karachi_image_height">55dp</dimen>
+    <dimen name="product_row_karachi_image_width">55dp</dimen>
+
+
+    <dimen name="product_row_product_name_text_size">13.0sp</dimen>
+    <dimen name="product_row_product_name_padding_left">4dp</dimen>
+    <dimen name="product_row_product_name_padding_right">4dp</dimen>
+    <dimen name="product_row_product_name_padding_top">4dp</dimen>
+    <dimen name="product_row_product_name_padding_bottom">4dp</dimen>
+
+    <dimen name="product_row_product_price_padding_left">3dp</dimen>
+    <dimen name="product_row_product_price_padding_right">3dp</dimen>
+    <dimen name="product_row_product_price_padding_bottom">8dp</dimen>
+    <!--<dimen name="product_row_product_price_margin_left">1dp</dimen>-->
+    <dimen name="product_row_product_price_text_size">15sp</dimen>
+
+
+
+    <dimen name="product_row_product_price_cut_margin_left">10dp</dimen>
+    <dimen name="product_row_product_price_cut_text_size">12sp</dimen>
+    <dimen name="product_row_product_price_cut_padding_bottom">10dp</dimen>
+
+
+    <dimen name="product_row_rating_bar_margin_left">4dp</dimen>
+    <dimen name="product_row_rating_bar_margin_right">4dp</dimen>
+    <dimen name="product_row_rating_bar_min">20dp</dimen>
+    <dimen name="product_row_rating_bar_max">20dp</dimen>
+    <dimen name="product_row_rating_bar_margin_top">0dp</dimen>
+
+
+    <dimen name="separator_row_text_size">24sp</dimen>
+    <dimen name="carousel_image_height">320dp</dimen>
+    <dimen name="product_detail_brand_text_size">16sp</dimen>
+    <dimen name="product_detail_information_left">10dp</dimen>
+    <dimen name="product_detail_information_right">10dp</dimen>
+    <dimen name="product_detail_padding_bottom">2dp</dimen>
+    <dimen name="product_detail_padding_top">2dp</dimen>
+    <dimen name="product_detail_name_padding_top">7dp</dimen>
+    <dimen name="product_detail_name_padding_bottom">3dp</dimen>
+    <dimen name="product_detail_cutprice_padding_left">10dp</dimen>
+    <dimen name="product_detail_rating_txt_padding_left">7dp</dimen>
+    <dimen name="product_detail_customer_rating_padding_left">5dp</dimen>
+    <dimen name="product_detail_separator_thin_height">2dp</dimen>
+    <dimen name="product_detail_reviews_margin_top">2dp</dimen>
+    <dimen name="product_detail_heading_text_size">22sp</dimen>
+    <dimen name="product_detail_separator_thick_height">12dp</dimen>
+    <dimen name="product_detail_description_padding_left">10dp</dimen>
+    <dimen name="product_detail_description_padding_right">10dp</dimen>
+    <dimen name="product_detail_highlight_padding_left">10dp</dimen>
+    <dimen name="product_detail_highlight_padding_right">10dp</dimen>
+    <dimen name="product_detail_customer_review_padding_left">14dp</dimen>
+    <dimen name="product_detail_customer_review_padding_right">14dp</dimen>
+    <dimen name="product_detail_reviews_padding_left">10dp</dimen>
+    <dimen name="product_detail_reviews_padding_right">10dp</dimen>
+    <dimen name="product_detail_customer_review_form_field_padding">5dp</dimen>
+    <dimen name="product_detail_edit_text_margin_left">3dp</dimen>
+    <dimen name="product_detail_edit_text_margin_right">3dp</dimen>
+    <dimen name="product_detail_form_heading_text_size">18sp</dimen>
+    <dimen name="product_detail_form_heading_padding_top">5dp</dimen>
+    <dimen name="product_detail_form_heading_padding_bottom">5dp</dimen>
+    <dimen name="product_detail_customer_review_form_field_padding_sides">4dp</dimen>
+    <dimen name="product_detail_relative_viewpager_height">350dp</dimen>
+    <dimen name="product_detail_drop_shadow_height">1dp</dimen>
+
+
+</resources>

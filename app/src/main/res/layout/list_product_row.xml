@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeProduct"
+    android:padding="10dp"
+    android:background="@android:color/white">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/product_row_image_height"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageProduct"/>
+
+
+
+    <TextView
+        android:layout_width="@dimen/product_row_discount_text_view_width"
+        android:layout_height="@dimen/product_row_discount_text_view_height"
+        android:id="@+id/txtDiscount"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:fontFamily="@font/helvetica_regular"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:background="@drawable/percentage_bg"
+        android:text="10% OFF"
+        android:textSize="@dimen/product_row_discount_text_size"
+        android:paddingLeft="@dimen/product_row_discount_text_padding_left"
+        style="@style/DiscountText"
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/product_row_karachi_image_height"
+        android:layout_height="@dimen/product_row_karachi_image_width"
+        android:scaleType="centerInside"
+        android:layout_alignParentRight="true"
+        android:id="@+id/imageView_karachi"
+        android:visibility="gone"
+        android:src="@drawable/karachi_only"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:lines="3"
+        android:singleLine="false"
+        android:paddingTop="@dimen/product_row_product_name_padding_top"
+        android:paddingBottom="@dimen/product_row_product_name_padding_bottom"
+        android:paddingLeft="@dimen/product_row_product_name_padding_left"
+        android:paddingRight="@dimen/product_row_product_name_padding_right"
+        android:textAlignment="textStart"
+        android:layout_below="@id/imageProduct"
+        android:id="@+id/txtProduct"
+        style="@style/ProductText"
+        android:fontFamily="notosans_regular"
+        android:textSize="@dimen/product_row_product_name_text_size"
+        android:layout_gravity="start" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        style="@style/PriceText"
+        android:paddingLeft="@dimen/product_row_product_price_padding_left"
+        android:paddingRight="@dimen/product_row_product_price_padding_right"
+        android:paddingBottom="@dimen/product_row_product_price_padding_bottom"
+        android:paddingTop="@dimen/product_row_product_price_padding_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:layout_below="@id/txtProduct"
+        android:text=""
+        android:fontFamily="notosans_regular"
+        android:textSize="@dimen/product_row_product_price_text_size"
+        android:textAlignment="textStart" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCutPrice"
+        style="@style/CutText"
+        android:text=""
+        android:textSize="@dimen/product_row_product_price_cut_text_size"
+        android:visibility="visible"
+        android:layout_below="@id/txtProduct"
+        android:layout_toRightOf="@id/txtPrice"
+        android:layout_alignTop="@id/txtPrice"
+        android:layout_alignBottom="@id/txtPrice"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/product_row_product_price_cut_margin_left"
+        android:paddingBottom="@dimen/product_row_product_price_cut_padding_bottom"
+        android:fontFamily="notosans_regular"
+        />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:numStars="5"
+        android:visibility="gone"
+        android:rating="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPrice"
+        android:layout_marginTop="@dimen/product_row_rating_bar_margin_top"
+        android:layout_marginLeft="@dimen/product_row_rating_bar_margin_left"
+        android:layout_marginRight="@dimen/product_row_rating_bar_margin_right"
+        android:layout_marginBottom="@dimen/product_row_rating_bar_margin_top"
+        style="@style/FoursquareReviewRating"/>
+
+</RelativeLayout>

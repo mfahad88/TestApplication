@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#435366</color>
+    <color name="colorPrimaryDark">#435366</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="ratingBar">#f4c269</color>
+    <color name="linear_header">#f4c469</color>
+    <color name="Separator_thick">#F0F0F0</color>
+    <color name="gray">#e4e4e4</color>
+    <color name="myAccountBorder">#dfdfdf</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">Search</string>
+    <string name="alphabets">abcdefghijklmnopqrstuvwxyz \'ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="account_dashboard">Account Dashboard</string>
+    <string name="my_orders">My Orders</string>
+    <string name="my_wishlist">My Wishlist</string>
+    <string name="address_book">Address Book</string>
+    <string name="account_information">Account Information</string>
+    <string name="gift_card">Gift Card</string>
+    <string name="my_product_reviews">My Product Reviews</string>
+    <string name="newsletter_subscription">Newsletter Subscription</string>
+</resources>

@@ -1,0 +1,87 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/proximanova_regular</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="fontFamily">@font/proximanova_regular</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="HeadingText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#090909</item>
+
+    </style>
+
+    <style name="ProductText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <!--<item name="android:textColor">#000000</item>-->
+
+
+
+    </style>
+
+    <style name="PriceText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#000000</item>
+
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="DiscountText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#ffffff</item>
+
+    </style>
+    <style name="CutText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#888888</item>
+
+
+    </style>
+
+
+    <style name="FoursquareReviewRating" parent="Widget.AppCompat.RatingBar">
+        <!--<item name="colorControlNormal">#ABBCCF</item>
+        <item name="colorControlActivated">#F0C909</item>
+        <item name="android:minHeight">8dip</item>
+        <item name="android:maxHeight">8dip</item>-->
+
+        <item name="android:progressDrawable">@drawable/myratingbar</item>
+        <item name="android:minHeight">@dimen/product_row_rating_bar_min</item>
+        <item name="android:maxHeight">@dimen/product_row_rating_bar_max</item>
+        <item name="android:minWidth">@dimen/product_row_rating_bar_min</item>
+        <item name="android:maxWidth">@dimen/product_row_rating_bar_max</item>
+    </style>
+
+    <style name="TransparentProgressDialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="radionbutton"
+        parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radiobutton_drawable</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>
